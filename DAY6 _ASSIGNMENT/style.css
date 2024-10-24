@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    background-image: url("image.jpg");
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 93vh;
+}
+
+.container {
+    display: block;
+    /* float: left; */
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 330px;
+    width: 500px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with transparency */
+}
+
+.a1 {
+    color: white;
+}
+
+.cont2 input {
+    width: 300px; /* Set the desired width */
+    height: 30px; /* Set the desired height */
+    padding: 10px; /* Optional: add some padding */
+    border: 1px solid #ccc; /* Optional: border styling */
+    border-radius: 2px; /* Optional: rounded corners */
+}
+
+.cont4 input {
+    width: 322px; /* Set the desired width */
+    height: 47px; /* Set the desired height */
+    padding: 10px; /* Optional: add some padding */
+    border: 1px solid #ccc; /* Optional: border styling */
+    border-radius: 2px; /* Optional: rounded corners */
+    color: white;
+    background-color: rgb(34, 114, 225);
+    font-size: medium;
+}
+
+.cont4 input:hover {
+    background-color: yellow; /* Change background color on hover */
+    color: black; /* Optional: change text color on hover */
+}
+
