@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS to style HTML form</title>
+    
+    <style>
+        input[type=text], select {
+            width: 100%;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        div{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1>Using CSS for styling HTML forms</h1>
+    <div>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" id="fname" placeholder="Your First Name">
+
+            <label for="fname">Last Name</label>
+            <input type="text" name="lastname" id="lname" placeholder="Your Last Name">
+
+            <label for="country">Country</label>
+            <select for="country" id="country" name="country">
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <i class="fa-solid fa-phone"></i>
+
+
+</body>
+
+</html>
