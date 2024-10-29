@@ -1,0 +1,73 @@
+body {
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-right: 300px;
+}
+
+.head {
+    padding-left: 140px;
+}
+
+hr{
+    border: 1px solid none;
+    width: 500px;
+    margin-left: 130px;
+}
+
+.cont1{
+    padding-left: 140px;
+}
+.cont1 input {
+    width: 230px;
+    height: 30px;
+    padding-left: 10px;
+    /* Optional: add some padding */
+    border: 1px solid #ccc;
+    /* Optional: border styling */
+    border-radius: 10px;
+}
+
+.dob{
+    padding-left: 140px;
+}
+.dob select {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.gender{
+    padding-left: 140px;
+}
+
+.cont3{
+    padding-left: 140px;
+}
+.cont3 input{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+}
+
+.para{
+    padding-bottom: 30px;
+    padding-left: 140px;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    margin-left: 245px;
+    border: 0.5px none;
+    box-shadow: none;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+.btn:hover {
+    background-color: rgb(26, 230, 26);
+    cursor: pointer;
+}

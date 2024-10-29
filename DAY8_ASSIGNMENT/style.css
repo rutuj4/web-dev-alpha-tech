@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    margin-top: 180px;
+}
+
+button {
+    color: white;
+    background-color: rgb(80, 228, 80);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin: 4px;
+}
+
+button.line1 {
+    height: 40px;
+    width: 50px;
+}
+
+button.backspace {
+    height: 40px;
+}
+
+button.tab {
+    height: 40px;
+    width: 60px;
+}
+
+button.capslock {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 90px;
+}
+
+button.line3 {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 60px;
+}
+
+button.enter {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 70px;
+}
+
+button.shift {
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 90px;
+}
+
+button.line5 {
+    height: 40px;
+    width: 90px;
+}
+
+button.space {
+    height: 40px;
+    width: 300px;
+}
