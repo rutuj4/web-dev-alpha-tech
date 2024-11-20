@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS -Switch Statement</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        const output = document.getElementById("output");
+        let grade = 'A';
+        output.innerHTML += "Entering switch block <br/>";
+        switch(grade){
+            case 'A': output.innerHTML += "Good Job <br/>";
+            break;
+            case 'B': output.innerHTML += "Passed <br />";
+            break;
+            case 'C': output.innerHTML += "Failed <br />";
+            break;
+            default: output.innerHTML += "Unknown grade <br />"
+        }
+    </script>
+</body>
+</html>

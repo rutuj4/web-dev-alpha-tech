@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        const obj = {
+            prodcut: "Mobile",
+            price: "20000",
+            color: "Blue"
+        }
+        delete obj.price; //deletong price
+        document.getElementById("output").innerHTML = "The Mobile price is " + obj.price + " and color is " + obj.color;
+    </script>
+</body>
+</html>

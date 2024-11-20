@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    
+    <script>
+        const output = document.getElementById("demo")
+        let book = "maths";
+
+        // let book = "science";
+        if(book == "history"){
+            output.innerHTML="<b> History Book </b>"
+        }
+        else if(book == "maths"){
+            output.innerHTML="<b> Maths Book </b>"
+        }
+        else if(book == "economics"){
+            output.innerHTML="<b> Economics Book </b>"
+        }
+        else {
+            output.innerHTML = "<b> Unknown Book </b>"
+        }
+
+    </script>
+</body>
+</html>
